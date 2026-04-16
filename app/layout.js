@@ -16,8 +16,9 @@ export const openSans = Open_Sans({
 });
 
 export const metadata = {
-  title: 'Pieces to Peace',
-  description: 'Lorem Ipsum',
+  title: 'Pieces to Peace | Handcrafted Textiles & Fabrics',
+  description: 'Individually created and made-to-order textiles designed with intention. Hand-drawn prints on certified fabrics, honouring a more conscious way of making.',
+  keywords: 'handcrafted textiles, made-to-order fabrics, sustainable textiles, hand-drawn prints, GOTS certified, ethical fabrics, timeless design',
 };
 
 export default function RootLayout({ children }) {

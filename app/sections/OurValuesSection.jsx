@@ -15,9 +15,9 @@ const OurValuesSection = () => {
 
             <div className='md:w-1/3'>
 
-          
 
-       
+
+
     <Image
 
     src='/images/piece-1.webp'
@@ -25,18 +25,18 @@ const OurValuesSection = () => {
     height={200}
     alt='fabric'
     />
-         <h3 className=' text-center my-4'>consectetur adipiscing </h3>
+         <h3 className=' text-center my-4'>Respectful Process</h3>
 
 
-     <FadeInParagraph 
+     <FadeInParagraph
      className='text-center'
-     paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-    
-      
+     paragraph="We work in a way that respects both material and meaning. By producing only what is needed, we move away from excess and towards a system that values balance—between creation and consumption, beauty and responsibility."/>
+
+
        </div>
        <div className='md:w-1/3'>
 
-       
+
     <Image
 
     src='/images/piece-2.webp'
@@ -44,18 +44,18 @@ const OurValuesSection = () => {
     height={200}
     alt='fabric'
     />
-         <h3 className=' text-center my-4'>consectetur adipiscing </h3>
+         <h3 className=' text-center my-4'>Family-Led Practice</h3>
 
 
-    <FadeInParagraph 
+    <FadeInParagraph
      className='text-center'
-     paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-    
-      
+     paragraph="Born from a family-led practice, Pieces to Peace is shaped by closeness—of people, process, and purpose. Our inspirations are drawn from culture, femininity, and a quiet inner strength, expressed through forms that feel both intimate and timeless."/>
+
+
        </div>
 <div className='md:w-1/3'>
 
-       
+
     <Image
 
     src='/images/piece-3.webp'
@@ -63,13 +63,13 @@ const OurValuesSection = () => {
     height={200}
     alt='fabric'
     />
-         <h3 className=' text-center my-4'>consectetur adipiscing </h3>
+         <h3 className=' text-center my-4'>Gathered with Care</h3>
 
-<FadeInParagraph 
+<FadeInParagraph
      className='text-center'
-     paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-    
-      
+     paragraph="We believe textiles carry energy—in the way they are made, the hands they pass through, and the spaces they eventually become a part of. At Pieces to Peace, each piece is not just created—it is gathered, with care."/>
+
+
        </div>
     
 

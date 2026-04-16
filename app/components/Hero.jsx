@@ -43,10 +43,10 @@ const Hero = () => {
         initial="hidden"
         animate="visible"
       >
-        consectetur adipiscing elit
+        Quiet beauty into everyday living
       </motion.h1>
 
-      
+
 
       <motion.div
         className="mt-auto mb-10 text-s"
@@ -55,7 +55,7 @@ const Hero = () => {
         initial="hidden"
         animate="visible"
       >
-        <h5 className="text-white">sed do eiusmod </h5>
+        <h5 className="text-white">Individually created and made-to-order, honouring a more conscious way of making</h5>
       </motion.div>
     </motion.div>
   );

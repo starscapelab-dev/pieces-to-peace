@@ -20,10 +20,10 @@ const KeyFeatures = () => {
       <div className='bg-white/80 p-20 z-10'>
         <h2 className='md:text-9xl text-xl '>
 
-              Your Trusted partner in exceptional fabric
+              Timeless textiles, thoughtfully made
 
         </h2>
-      
+
       </div>
       </div>
      
@@ -32,24 +32,24 @@ const KeyFeatures = () => {
   <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-20 p-10 text-center '>
 
         <div className='flex flex-col gap-2'>
-            <h3>Print on Demand</h3>
+            <h3>Made-to-Order</h3>
 
-            <FadeInParagraph paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-            
+            <FadeInParagraph paragraph="Each piece is individually created only when needed, reducing waste and ensuring every textile is intentionally made for its future home."/>
 
-        </div>
-        <div className='flex flex-col gap-2'>
-            <h3>Print on Demand</h3>
-            <FadeInParagraph paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
 
         </div>
         <div className='flex flex-col gap-2'>
-            <h3>Print on Demand</h3>
-            <FadeInParagraph paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+            <h3>Hand-Drawn Prints</h3>
+            <FadeInParagraph paragraph="Our prints begin by hand, where each line carries presence and is translated onto fabric through a considered process that retains the softness and depth of the original artwork."/>
+
         </div>
         <div className='flex flex-col gap-2'>
-            <h3>Print on Demand</h3>
-             <FadeInParagraph paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+            <h3>Certified Materials</h3>
+            <FadeInParagraph paragraph="We work towards GOTS and GRS certified materials with traceable processes, ensuring our textiles honor resources and respect the journey of creation."/>
+        </div>
+        <div className='flex flex-col gap-2'>
+            <h3>Timeless Design</h3>
+             <FadeInParagraph paragraph="Our pieces are designed to stay—timeless in expression, gentle in presence, and made to be lived with, cared for, and held onto."/>
 
         </div>
 

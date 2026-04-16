@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import React from 'react';
-import { easeInOut, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import FadeInParagraph from '../components/FadeInParagraph';
 
 const textVariants = {
@@ -56,17 +56,13 @@ const AboutSection = () => {
         variants={textVariants}
         
       >
-        <motion.h3 variants={textVariants}>consectetur adipiscing elit</motion.h3>
+        <motion.h3 variants={textVariants}>Our World</motion.h3>
         <motion.h2 className="text-4xl" variants={textVariants}>
-          sed do eiusmod tempor incididunt
+          Designed with intention
         </motion.h2>
 
         <motion.hr className="w-xl" variants={textVariants} />
-        <FadeInParagraph paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur."/>
+        <FadeInParagraph paragraph="Individually created and made-to-order, our pieces are designed with intention—to bring quiet beauty into everyday living, while honouring a more conscious way of making. Our prints begin by hand, where each line carries a sense of presence. Created slowly and translated onto fabric through a considered process, they retain the softness, depth, and feeling of the original artwork—alive in detail, and gentle in expression."/>
 
         
 
