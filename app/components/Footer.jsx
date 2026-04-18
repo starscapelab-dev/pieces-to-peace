@@ -74,7 +74,7 @@ const Footer = () => {
 
       <div className='bg-[#D2C0AB] px-10 py-5 text-center'>
 
-        <p>Pieces to Peace © 2025
+        <p>Pieces to Peace © 2026
 
 </p>
       </div>
