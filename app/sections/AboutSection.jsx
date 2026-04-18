@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import FadeInParagraph from '../components/FadeInParagraph';
 
 const textVariants = {
@@ -66,9 +67,11 @@ const AboutSection = () => {
 
         
 
-        <motion.button className="w-fit p-4 bg-amber-800 text-white" variants={textVariants}>
-          Learn More
-        </motion.button>
+        <Link href="/about">
+          <motion.button className="w-fit p-4 bg-amber-800 text-white hover:bg-amber-900 transition-colors cursor-pointer" variants={textVariants}>
+            Learn More
+          </motion.button>
+        </Link>
       </motion.div>
     </div>
   );

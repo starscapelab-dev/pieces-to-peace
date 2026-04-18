@@ -23,7 +23,7 @@ const BelowHeader = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
         />
-        <h1 className="text-[#49352C] text-3xl  z-10 relative">aliquip ex ea</h1>
+        <h1 className="text-[#49352C] text-3xl md:text-5xl z-10 relative text-center px-8">Crafted with Care</h1>
       </div>
 
       {/* Right Section */}
@@ -36,7 +36,7 @@ const BelowHeader = () => {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ delay: 0.3, duration: 1.2 }}
         />
-        <h1 className="text-[#49352C] text-3xl  z-10 relative">occaecat cupidatat</h1>
+        <h1 className="text-[#49352C] text-3xl md:text-5xl z-10 relative text-center px-8">Made to Last</h1>
       </div>
     </div>
   );

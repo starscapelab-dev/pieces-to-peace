@@ -16,12 +16,25 @@ const MobileMenu = () => {
     <>
       {/* Hamburger Icon */}
       <button
-        className="md:hidden z-50 relative w-8 h-6 flex flex-col justify-between items-end focus:outline-none"
+        className="md:hidden z-[60] relative w-8 h-6 flex flex-col justify-between items-end focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
+        aria-label="Toggle menu"
       >
-        <span className="w-full h-[2px] bg-black rounded transition-all duration-300" />
-        <span className="w-3/4 h-[2px] bg-black rounded transition-all duration-300" />
-        <span className="w-1/2 h-[2px] bg-black rounded transition-all duration-300" />
+        <motion.span
+          className="w-full h-[2px] bg-black rounded"
+          animate={isOpen ? { rotate: 45, y: 8 } : { rotate: 0, y: 0 }}
+          transition={{ duration: 0.3 }}
+        />
+        <motion.span
+          className="w-3/4 h-[2px] bg-black rounded"
+          animate={isOpen ? { opacity: 0 } : { opacity: 1 }}
+          transition={{ duration: 0.3 }}
+        />
+        <motion.span
+          className="w-1/2 h-[2px] bg-black rounded"
+          animate={isOpen ? { rotate: -45, y: -8, width: '100%' } : { rotate: 0, y: 0, width: '50%' }}
+          transition={{ duration: 0.3 }}
+        />
       </button>
 
       {/* Overlay menu */}
@@ -33,7 +46,7 @@ const MobileMenu = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '-100%' }}
             transition={{ duration: 0.4, ease: 'easeInOut' }}
-            className="fixed inset-0 bg-white z-40 flex flex-col items-center justify-center text-2xl gap-10"
+            className="fixed inset-0 bg-white z-50 flex flex-col items-center justify-center text-2xl gap-10"
           >
             {menuItems.map((item) => (
               <Link
