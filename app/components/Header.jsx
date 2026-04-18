@@ -6,7 +6,7 @@ import MobileMenu from './MobileMenu';
 
 const Header = () => {
   return (
-    <motion.header className="bg-amber-50/80 w-full py-3 px-6 md:px-14 fixed top-0 z-50 backdrop-blur-md border-b text-lg flex justify-between "
+    <motion.header className="bg-amber-50/80 w-full py-3 px-6 md:px-14 fixed top-0 z-[100] backdrop-blur-md border-b text-lg flex justify-between items-center"
 
     transition={{duration:0.8, ease: 'easeOut'}}
     initial={{opacity:0, y:-70}}

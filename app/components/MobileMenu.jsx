@@ -16,7 +16,7 @@ const MobileMenu = () => {
     <>
       {/* Hamburger Icon */}
       <button
-        className="md:hidden z-[60] relative w-8 h-6 flex flex-col justify-between items-end focus:outline-none"
+        className="md:hidden z-[110] relative w-8 h-6 flex flex-col justify-between items-end focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
         aria-label="Toggle menu"
       >
@@ -42,21 +42,27 @@ const MobileMenu = () => {
         {isOpen && (
           <motion.div
             key="menu"
-            initial={{ opacity: 0, y: '-100%' }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: '-100%' }}
-            transition={{ duration: 0.4, ease: 'easeInOut' }}
-            className="fixed inset-0 bg-white z-50 flex flex-col items-center justify-center text-2xl gap-10"
+            initial={{ opacity: 0, x: '100%' }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: '100%' }}
+            transition={{ duration: 0.3, ease: 'easeInOut' }}
+            className="fixed top-0 right-0 w-full h-screen bg-amber-50 z-[105] flex flex-col items-center justify-center text-2xl gap-10"
           >
-            {menuItems.map((item) => (
-              <Link
+            {menuItems.map((item, index) => (
+              <motion.div
                 key={item.href}
-                href={item.href}
-                onClick={() => setIsOpen(false)}
-                className="hover:text-amber-600 transition duration-300"
+                initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: index * 0.1, duration: 0.3 }}
               >
-                {item.label}
-              </Link>
+                <Link
+                  href={item.href}
+                  onClick={() => setIsOpen(false)}
+                  className="hover:text-amber-800 transition duration-300 text-3xl font-medium"
+                >
+                  {item.label}
+                </Link>
+              </motion.div>
             ))}
           </motion.div>
         )}
