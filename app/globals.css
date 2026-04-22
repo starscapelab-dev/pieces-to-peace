@@ -43,8 +43,8 @@ h1, h2, h4 {
 }
 
 h3 {
-    font-family: var(--font-lora), sans-serif;
-      font-weight: 200;
+    font-family: var(--font-edensor), sans-serif;
+    font-weight: 400;
 
 }
 

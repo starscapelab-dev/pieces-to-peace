@@ -1,12 +1,5 @@
 import './globals.css';
-import { Lora, Open_Sans } from 'next/font/google';
-
-export const lora = Lora({
-  subsets: ['latin'],
-  weight: ['400', '500', '600'],
-  variable: '--font-lora',
-  display: 'swap',
-});
+import { Open_Sans } from 'next/font/google';
 
 export const openSans = Open_Sans({
   subsets: ['latin'],
@@ -23,7 +16,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${lora.variable} ${openSans.variable}`}>
+    <html lang="en" className={`${openSans.variable}`}>
       <body className="antialiased">
         {children}
       </body>
