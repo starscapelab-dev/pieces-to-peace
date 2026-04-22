@@ -34,13 +34,13 @@ const KeyFeatures = () => {
         <div className='flex flex-col gap-2'>
             <h3>Made-to-Order</h3>
 
-            <FadeInParagraph paragraph="Each piece is individually created only when needed, reducing waste and ensuring every textile is intentionally made for its future home."/>
+            <FadeInParagraph paragraph="Each piece is individually created only when needed, reducing waste and ensuring every textile is intentionally made for its future home with care."/>
 
 
         </div>
         <div className='flex flex-col gap-2'>
             <h3>Hand-Drawn Prints</h3>
-            <FadeInParagraph paragraph="Our prints begin by hand, where each line carries presence and is translated onto fabric through a considered process that retains the softness and depth of the original artwork."/>
+            <FadeInParagraph paragraph="Our prints begin by hand, where each line carries presence and is translated onto fabric through a considered process that honors the original artwork."/>
 
         </div>
         <div className='flex flex-col gap-2'>
@@ -49,7 +49,7 @@ const KeyFeatures = () => {
         </div>
         <div className='flex flex-col gap-2'>
             <h3>Timeless Design</h3>
-             <FadeInParagraph paragraph="Our pieces are designed to stay—timeless in expression, gentle in presence, and made to be lived with, cared for, and held onto."/>
+             <FadeInParagraph paragraph="Our pieces are designed to stay—timeless in expression, gentle in presence, and made to be lived with, cared for, and cherished for years."/>
 
         </div>
 
