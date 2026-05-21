@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nComplete website content updates based on brand document\n\n- Update Hero section with brand messaging\n- Replace all placeholder content with actual brand story\n- Add About page with ''A gentler way of making'' content\n- Add Contact page with functional form\n- Update Our Values section with three core values\n- Update Key Features with made-to-order, hand-drawn prints, certified materials, and timeless design\n- Improve SEO metadata and page descriptions\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(git credential-manager:*)",
+      "Bash(git-credential-manager:*)",
+      "Bash(git push:*)",
+      "Bash(git remote:*)",
+      "Bash(npm outdated:*)",
+      "Bash(npm view:*)",
+      "Bash(npm audit:*)"
+    ]
+  }
+}
