@@ -7,6 +7,7 @@ import AboutSection from './sections/AboutSection'
 import CategoriesSection from './sections/CategoriesSection'
 import KeyFeatures from './sections/KeyFeatures'
 import OurValuesSection from './sections/OurValuesSection'
+import ImageShowcase from './sections/ImageShowcase'
 
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
 
        <AboutSection/>
        <BelowHeader/>
+       <ImageShowcase/>
        <CategoriesSection/>
        <KeyFeatures/>
        <OurValuesSection/>
